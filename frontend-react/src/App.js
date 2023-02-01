@@ -6,6 +6,11 @@ import UploadForm from "./components/UploadForm";
 function App() {
   return (
     <div className="container">
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <UploadForm />
       <br />
       <br />
