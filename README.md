@@ -44,7 +44,7 @@ Navigate in your browser to (or change to port if it is used):
 
 ### endpoints
 
-- Get list of Employees from database
+- Get list of Employees from database, also works with endpoints("", "/", "/index")
 <pre>http://localhost:8080/employees</pre>
 
 - Receive uploaded CSV file
