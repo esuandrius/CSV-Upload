@@ -61,3 +61,6 @@ Table name EMPLOYEES, column names ID, NAME, EMAIL, PHONE_NUMBER
 
 ![image](https://user-images.githubusercontent.com/111871226/216018510-3b2b31a9-fc50-431d-8a24-6fad363e301e.png)
 
+### Additional Resources
+
+- added employees.csv file for testing.
