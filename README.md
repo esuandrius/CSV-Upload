@@ -27,7 +27,7 @@ Install the modules
 Start the application on local host:
 <pre>npm start</pre>
 
-Navigate in your browser to (or change to other port if it is used):
+Automatically navigates in your browser to (or change to other port if it is used):
 <pre>http://localhost:3000</pre>
 
 ### Backend application
@@ -38,7 +38,7 @@ Open subfolder backend-spring with your IDE
 <pre>run application</pre>
 
 Navigate in your browser to (or change to port if it is used):
-<pre>http://localhost:8080</pre>
+<pre>http://localhost:8080/employees</pre>
 
 ### endpoints
 
@@ -54,3 +54,8 @@ Navigate in your browser to (or change to port if it is used):
 Login information as below:
 
 ![image](https://user-images.githubusercontent.com/111871226/216017555-2e26b159-15ef-4d37-b699-82b55287bb25.png)
+
+Table name EMPLOYEES, column names ID, NAME, EMAIL, PHONE_NUMBER
+
+![image](https://user-images.githubusercontent.com/111871226/216018510-3b2b31a9-fc50-431d-8a24-6fad363e301e.png)
+
