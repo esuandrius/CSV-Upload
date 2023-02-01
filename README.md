@@ -9,16 +9,17 @@ CSV File Upload in React, passing file to Spring Boot, writing in to H2 memoryba
 Clone the repository:
 
 git clone https://github.com/esuandrius/CSV-Upload.git
+
 Navigate to the newly created folder:
 
 cd CSV-Upload
 
-### frontend
+### frontend application
 
 Install NodeJs.v.16.13.1 /npm v.8.3.0
 
 Navigate to frontend-react subfolder:
-<pre>cd react-frontend</pre>
+<pre>cd frontend-react</pre>
 
 Install the modules
 <pre>npm i react-scripts</pre>
