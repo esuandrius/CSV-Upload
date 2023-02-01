@@ -23,7 +23,7 @@ public class EmployeeController {
         this.employeeService = employeeService;
     }
 
-    @GetMapping("/employees")
+    @GetMapping({"/employees", "", "/", "/index"})
     public List<Employee> getAllEmployees() {
 
         return employeeService.getAllEmployeesFromDB();
