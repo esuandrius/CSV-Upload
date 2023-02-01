@@ -34,7 +34,7 @@ Automatically navigates in your browser to (or change to other port if it is use
 
 ### Backend application
 
-Install Java 11+ /mvn 3.5+
+Install Java >= 1.8/Maven 3.6.x/Project Lombok >= 1.18.20
 
 Open subfolder backend-spring with your IDE
 <pre>run application</pre>
