@@ -46,7 +46,7 @@ Get list of Employees from database
 <pre>http://localhost:8080/employees</pre>
 
 Receive uploaded CSV file
-<pre>http://localhost:8080/upload<pre>
+<pre>http://localhost:8080/upload</pre>
 
 H2 memorybase access
 <pre>http://localhost:8080/h2-console</pre>
