@@ -4,6 +4,6 @@ This project consists of two applications: one is a Spring Boot Rest API called 
 
 CSV File Upload in React, passing file to Spring Boot, writing in to H2 memorybase, then fetching data to React HTML table.
 
-Applications
+# How to launch
 
-- spring-backend
+### backend
