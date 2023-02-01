@@ -40,13 +40,13 @@ Open subfolder backend-spring with your IDE
 Navigate in your browser to (or change to port if it is used):
 <pre>http://localhost:8080</pre>
 
-###endpoints
+### endpoints
 
-Get list of Employees from database
+- Get list of Employees from database
 <pre>http://localhost:8080/employees</pre>
 
-Receive uploaded CSV file
+- Receive uploaded CSV file
 <pre>http://localhost:8080/upload</pre>
 
-H2 memorybase access
+- H2 memorybase access
 <pre>http://localhost:8080/h2-console</pre>
