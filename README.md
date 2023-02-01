@@ -18,15 +18,14 @@ cd CSV-Upload
 Install NodeJs.v.16.13.1 /npm v.8.3.0
 
 Navigate to frontend-react subfolder:
-
 <pre>cd react-frontend</pre>
+
 Install the modules
+<pre>npm i react-scripts</pre>
 
-npm i
 Start the application on local host:
+<pre>npm start</pre>
 
-npm start
-Navigate to:
-
-http://localhost:4200
+Navigate in your browser to (or other port if it is used):
+<pre>http://localhost:3000</pre>
 
