@@ -2,18 +2,16 @@ package com.csv.upload.app.service;
 
 import com.csv.upload.app.entity.Employee;
 import com.csv.upload.app.repository.EmployeeRepository;
+import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
+@AllArgsConstructor
 public class EmployeeServiceImpl implements EmployeeService {
 
     private final EmployeeRepository employeeRepository;
-
-    public EmployeeServiceImpl(EmployeeRepository employeeRepository) {
-        this.employeeRepository = employeeRepository;
-    }
 
     @Override
     public List<Employee> getAllEmployeesFromDB() {
