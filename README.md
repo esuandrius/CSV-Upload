@@ -2,7 +2,7 @@
 
 This project consists of two applications: one is a Spring Boot Rest API called  backend-spring and another is a ReactJS application called frontend-react. Main goal to upload employees data to memorybase, and get it visualised in a HTML table.
 
-![upload-csv](https://user-images.githubusercontent.com/111871226/216391832-b32139cb-f197-4014-af59-f939c442ddc4.PNG)
+![upload-csv](https://user-images.githubusercontent.com/111871226/216392469-d1cd40eb-28c9-4a88-9488-c9b895f29769.PNG)
 
 CSV File Upload in React, passing file to Spring Boot, writing in to H2 memorybase, then fetching data to React HTML table.
 
