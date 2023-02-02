@@ -22,8 +22,12 @@ const AppTesting = () => {
   };
 
   return (
-    <div className="container row justify-content-center">
-      <table className="table table-striped table-bordered table-responsive w-75">
+    <div
+      className="container d-flex 
+    justify-content-center 
+    align-items-center"
+    >
+      <table className="table table-striped table-bordered table-responsive">
         <thead style={{ backgroundColor: "darkgrey" }}>
           {employees.map((employee) =>
             employee.id === 1 ? (

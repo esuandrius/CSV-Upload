@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import employeeService from "../services/employee.service";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const UploadForm = () => {
   const [selectedFile, setSelectedFile] = useState(null);
@@ -25,19 +26,23 @@ const UploadForm = () => {
 
   return (
     <div style={{ textAlign: "center" }}>
-      <h1>Employees CSV file Upload</h1>
-      <br />
-      <br />
-      <form onSubmit={handleSubmit}>
-        <input
-          type="file"
-          id="file"
-          name="file"
-          accept=".csv"
-          onChange={handleFileSelect}
-        />
-        <input type="submit" value="Upload" className="border border-dark" />
-      </form>
+      <div className="d-flex justify-content-center mt-5">
+        <form onSubmit={handleSubmit}>
+          <input
+            type="file"
+            id="file"
+            name="file"
+            accept=".csv"
+            onChange={handleFileSelect}
+            className="form-control form-control-lg mb-1"
+          />
+          <input
+            type="submit"
+            value="Upload"
+            className="btn btn-primary btn-lg border mt-4 w-auto mb-5"
+          />
+        </form>
+      </div>
     </div>
   );
 };
