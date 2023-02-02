@@ -5,6 +5,7 @@ import com.csv.upload.app.service.EmployeeService;
 import com.univocity.parsers.common.record.Record;
 import com.univocity.parsers.csv.CsvParser;
 import com.univocity.parsers.csv.CsvParserSettings;
+import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -15,13 +16,10 @@ import java.util.List;
 
 @CrossOrigin("*")
 @RestController
+@AllArgsConstructor
 public class EmployeeController {
 
     private final EmployeeService employeeService;
-
-    public EmployeeController(EmployeeService employeeService) {
-        this.employeeService = employeeService;
-    }
 
     @GetMapping({"/employees", "", "/", "/index"})
     public List<Employee> getAllEmployees() {
